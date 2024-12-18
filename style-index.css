@@ -1,11 +1,18 @@
 body{
     font-family: "Montserrat", serif;
-    width:90% 
+    width:70%;
+    margin: auto;
+
   }
   
   h1
   {
     font-family: "Abril Fatface", serif;
+    color: #D9597B;
+  }
+
+  h2 {
+    color: #D9597B;
   }
   
   nav{
@@ -34,4 +41,27 @@ body{
   
   nav a:active:active{
     color: blue;
+  }
+
+  div img {
+    width: 600px;
+    height : 500px
+  }
+
+  div a {
+    color: #D9597B
+  }
+
+  main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+  }
+
+  div{
+    margin: 20px;
+    width: 600px;
   }
