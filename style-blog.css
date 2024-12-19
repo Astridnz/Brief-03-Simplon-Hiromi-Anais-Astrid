@@ -7,6 +7,7 @@ body {
 }
 
 nav {
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,24 +25,20 @@ nav li {
   margin-left: 10px;
 }
 
+li a[href="blog.html"] {
+  font-weight: bold;
+  color: #9f7ebf;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
 }
 
-nav a:active:active {
-  color: blue;
+li a[href="blog.html"] {
+  font-weight: bold;
+  color: #9f7ebf;
 }
-
-/*image*/
-.image_top {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1280px;
-}
-
-/*titre et texte*/
 
 h1 {
   font-family: "Abril Fatface", serif;
@@ -111,4 +108,14 @@ footer {
 
 .linkedin-button {
   background-color: #0c64c4;
+}
+
+a img {
+  width: 20px;
+  height: 20px;
+}
+
+a img {
+  width: 20px;
+  height: 20px;
 }

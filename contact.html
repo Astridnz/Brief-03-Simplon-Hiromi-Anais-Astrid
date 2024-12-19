@@ -26,31 +26,33 @@
 
 </nav>
 <main>
-  <img src="Images/banniere.png" alt="">
+  <div class="inthemiddle">
+  <img src="Images/illustration.png" alt="">
   <h1>Nous contacter</h1>
-
-  <form action="" method="get">
+</div>
+  <form action="#" method="get">
     <fieldset>
-      <legend for="name"></legend>
-      <input class="largeInput" type="text" id="name" name="user name" placeholder="Votre nom..." required>
+      <legend>Votre nom...</legend>
+      <input class="largeInput" type="text" id="nom" name="nom" required>
     </fieldset>
 
     <fieldset>
-    <legend for="prenom"></legend>
-    <input class="largeInput" type="text" id="prenom" name="prenom" placeholder="Votre prénom..." required>
+    <legend>Votre prénom...</legend>
+    <input class="largeInput" type="text" id="prenom" name="prenom" required>
     </fieldset>
 
     <fieldset>
-      <legend for="email"></legend>
-      <input class="largeInput" type="email" name="user email" id="email" placeholder="Votre mail..." required>
+      <legend>Votre email...</legend>
+      <input class="largeInput" type="email" name="user email" id="email" required>
     </fieldset>
 
     <fieldset>
-      <legend for="message">Votre message</legend>
+      <legend>Votre message</legend>
       <textarea name="message" id="message" rows="5" cols="50"></textarea>
-      <label for="comments"></label>
+      <label for="message"></label>
     </fieldset>
-    <button>Submit</button>
+
+    <button>Envoyer !</button>
   </form>
 </main>
 
