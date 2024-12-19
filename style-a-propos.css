@@ -1,49 +1,129 @@
-body{
-  width: 70%;
+body {
   font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
   margin: auto;
 }
 
-h1
-{
-  font-family: "Abril Fatface", serif;
-  color: #D9597B;
-  font-size: xx-large;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav{
-  width: 90%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-nav a{
+nav a {
   color: #888;
   text-decoration: none;
 }
 
-nav li{
+nav li {
   list-style: none;
   font-size: medium;
   color: #888;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   flex-direction: row;
 }
 
-.titre{
-  font-size: xx-large;
+nav a:active:active {
+  color: blue;
 }
 
-form{
-  font-size: large;
+/*image*/
+.image_top {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
 }
 
-fieldset{
+.image_top-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%); /*ベンダープレフィックス*/
+  -webkit-transform: translate(-50%, -50%); /*ベンダープレフィックス*/
+  transform: translate(-50%, -50%); /*センター寄せの修正*/
+  font-size: 1.8rem;
+}
+
+/*introduction*/
+
+/*titre et texte*/
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  color: #d9597b;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #2e0da6;
+}
+
+.texte {
+  font-size: 20px;
+  text-align: justify;
+}
+
+footer {
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-bottom: 200px;
+}
+
+.illustration {
+  width: 350px;
+  height: 350px;
+}
+
+.welcome {
+  display: flex;
+}
+
+.blabla {
+  width: 80%;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.social-button {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  background-color: #00abf4;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
+.social-button img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.medium-button {
+  background-color: black;
+}
+
+.linkedin-button {
+  background-color: #0c64c4;
+}
