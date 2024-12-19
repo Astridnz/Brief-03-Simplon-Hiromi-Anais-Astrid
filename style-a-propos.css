@@ -1,11 +1,14 @@
 body{
+  width: 60%;
   font-family: "Montserrat", serif;
-  width:90% 
+  margin: auto;
 }
 
 h1
 {
   font-family: "Abril Fatface", serif;
+  color: #D9597B;
+  font-size: xx-large;
 }
 
 nav{
@@ -29,9 +32,21 @@ nav li{
 nav ul{
   display: flex;
   flex-direction: row;
- 
 }
 
 nav a:active:active{
   color: blue;
 }
+
+.titre{
+  font-size: xx-large;
+}
+
+form{
+  font-size: large;
+}
+
+fieldset{
+  text-decoration: none;
+}
+
