@@ -24,6 +24,11 @@ nav li {
   margin-left: 10px;
 }
 
+li a[href="blog.html"]{
+  font-weight: bold;
+  color: #9F7EBF;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
