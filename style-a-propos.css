@@ -12,6 +12,7 @@ h1
 }
 
 nav{
+  width: 90%;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -32,10 +33,6 @@ nav li{
 nav ul{
   display: flex;
   flex-direction: row;
-}
-
-nav a:active:active{
-  color: blue;
 }
 
 .titre{
