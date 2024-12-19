@@ -33,18 +33,26 @@ nav a:active:active {
   color: blue;
 }
 
+/*image*/
+.image_top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+
 /*titre et texte*/
 
-#h1 {
+h1 {
   font-family: "Abril Fatface", serif;
   color: #d9597b;
 }
 
-#h2,
-#h3 {
+h2,
+h3 {
   color: #2e0da6;
 }
-#texte {
+.texte {
   font-size: 20px;
   text-align: justify;
 }
