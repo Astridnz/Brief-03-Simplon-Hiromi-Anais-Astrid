@@ -100,5 +100,6 @@ header{
 .linkedin-button{
   background-color:#0c64c4;
 }
-
-fieldset
+fieldset{
+  border: none;
+}
