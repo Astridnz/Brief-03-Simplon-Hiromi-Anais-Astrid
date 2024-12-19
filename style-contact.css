@@ -1,5 +1,5 @@
 body{
-  width: 60%;
+  width: 70%;
   font-family: "Montserrat", serif;
   margin: auto;
 }
@@ -100,3 +100,5 @@ header{
 .linkedin-button{
   background-color:#0c64c4;
 }
+
+fieldset

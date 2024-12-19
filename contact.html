@@ -25,42 +25,35 @@
     </ul>
 
 </nav>
+<main>
+  <img src="Images/banniere.png" alt="">
+  <h1>Nous contacter</h1>
 
-<header>
+  <form action="" method="get">
+    <fieldset>
+      <legend for="name"></legend>
+      <input class="largeInput" type="text" id="name" name="user name" placeholder="Votre nom..." required>
+    </fieldset>
 
-  <section class="welcome">
+    <fieldset>
+    <legend for="prenom"></legend>
+    <input class="largeInput" type="text" id="prenom" name="prenom" placeholder="Votre prénom..." required>
+    </fieldset>
 
-    <div class="welcome-text">
+    <fieldset>
+      <legend for="email"></legend>
+      <input class="largeInput" type="email" name="user email" id="email" placeholder="Votre mail..." required>
+    </fieldset>
 
-      <h1>Bienvenue sur le blog !</h1>
-      <p class="titre">Lorem ipsum</p>
-      <p class="blabla">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi optio cupiditate ad in ullam, nihil libero dolorum sint architecto eos voluptas itaque consequatur, sapiente rerum error provident tempora! Ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi optio cupiditate ad in ullam, nihil libero dolorum sint architecto eos voluptas itaque consequatur, sapiente rerum error provident tempora! Ea!</p>
-    
-    </div>
+    <fieldset>
+      <legend for="message">Votre message</legend>
+      <textarea name="message" id="message" rows="5" cols="50"></textarea>
+      <label for="comments"></label>
+    </fieldset>
+    <button>Submit</button>
+  </form>
+</main>
 
-    <div class="welcome-img">
-
-      <img class="illustration" src="Images/illustration.png" alt="">
-    
-    </div>
-  </section>
-
-  <div class="social-buttons">
-    <a href="#" class="social-button twitter-button">
-      <img src="Images/twitter.png" alt="Twitter">
-      Twitter
-    </a>
-    <a href="#" class="social-button linkedin-button">
-      <img src="Images/linkedin.png" alt="LinkedIn">
-      LinkedIn
-    </a>
-    <a href="#" class="social-button medium-button">
-      <img src="Images/medium.png" alt="Medium">
-      Medium
-    </a>
-  </div>
- 
-</header>
 
 
 </body>
