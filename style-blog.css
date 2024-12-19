@@ -1,0 +1,50 @@
+body {
+  font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #888;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  font-size: medium;
+  color: #888;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav a:active:active {
+  color: blue;
+}
+
+/*titre et texte*/
+
+#h1 {
+  font-family: "Abril Fatface", serif;
+  color: #d9597b;
+}
+
+#h2,
+#h3 {
+  color: #2e0da6;
+}
+#texte {
+  font-size: 20px;
+  text-align: justify;
+}
