@@ -16,6 +16,7 @@ body{
   }
   
   nav{
+    width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,13 +40,9 @@ body{
    
   }
   
-  nav a:active:active{
-    color: blue;
-  }
-
-  div img {
-    width: 600px;
-    height : 550px
+  li a[href="index.html"]{
+    font-weight: bold;
+    color: #9F7EBF;
   }
 
   div a {
@@ -58,37 +55,47 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+  }
+  
+  main div img{
+    width: 100%;
 
   }
 
   div{
-    margin: 30px;
     width: 600px;
   }
 
   header{
-  
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+
   }
   
    .illustration{
     width: 350px;
     height: 350px;
    }
-  
+
    .welcome{
     display: flex;
+    justify-content: space-between;
    }
   
-  
+   .welcome-text{
+    width: 60%;
+   }
+
+   .welcome-img{
+    width: fit-content;
+
+   }
    
    .blabla{
-    width: 80%;
     text-align: justify;
-    padding-right: 20px;
    }
   
    .social-buttons {
@@ -124,3 +131,15 @@ body{
   .linkedin-button{
     background-color:#0c64c4;
   }
+a img{
+  width: 20px;
+  height: 20px;
+}
+
+.article{
+  margin: 10px;
+}
+
+.titre{
+  font-size: xx-large;
+}

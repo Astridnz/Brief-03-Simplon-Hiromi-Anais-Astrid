@@ -22,6 +22,11 @@ nav a{
   text-decoration: none;
 }
 
+li a[href="contact.html"]{
+  font-weight: bold;
+  color: #9F7EBF;
+}
+
 nav li{
   list-style: none;
   font-size: medium;
