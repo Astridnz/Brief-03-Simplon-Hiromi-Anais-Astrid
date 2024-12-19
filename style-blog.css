@@ -48,3 +48,59 @@ nav a:active:active {
   font-size: 20px;
   text-align: justify;
 }
+
+footer {
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-bottom: 200px;
+}
+
+.illustration {
+  width: 350px;
+  height: 350px;
+}
+
+.welcome {
+  display: flex;
+}
+
+.blabla {
+  width: 80%;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.social-button {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  background-color: #00abf4;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.social-button img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.medium-button {
+  background-color: black;
+}
+
+.linkedin-button {
+  background-color: #0c64c4;
+}
