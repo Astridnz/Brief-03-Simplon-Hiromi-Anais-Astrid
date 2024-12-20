@@ -50,10 +50,13 @@ body{
 
   main{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: stretch;
+   
+  }
+
+  .article{
+   margin: 10px;
   }
 
   main div img{
@@ -148,4 +151,5 @@ body{
     text-transform: uppercase
   }
 
+ 
 
