@@ -1,8 +1,7 @@
 body{
     font-family: "Montserrat", serif;
-    width:70%;
+    width: 70%;
     margin: auto;
-
   }
   
   h1
@@ -66,81 +65,87 @@ body{
     width: 600px;
   }
 
-  header{
+  a img{
+    width: 20px;
+    padding-right: 5px;
+  }
+  
+  .titre{
+    margin-top: 3%;
+    font-size: 50px;
+  }
+  
+  .blabla{
+    width: 98%;
+    text-align: justify;
+    margin-top: 50px;
+  }
+  
+  .welcome {
+    font-family: "Abril Fatface", serif;
+    font-size: 40px;
+    color: #D9597B;
+    
+  }
+  
+  .reseaux-sociaux{
+    margin-top: 60px;
+  }
+  
+  .vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+  }
+  
+  .horizontal{
     width: 80%;
     margin: auto;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
   }
   
-   .illustration{
-    width: 350px;
-    height: 350px;
-   }
-
-   .welcome{
-    display: flex;
-    justify-content: space-between;
-   }
+  .illustration{
+    width:500px;
+    height: fit-content;
   
-   .welcome-text{
-    width: 60%;
-   }
-
-   .welcome-img{
-    width: fit-content;
-
-   }
-   
-   .blabla{
-    text-align: justify;
-   }
-  
-   .social-buttons {
-    display: flex;
-    justify-content: start;
-    gap: 30px;
-    margin-bottom: 30px;
   }
   
-  .social-button {
-    color: white;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 50px;
-    background-color: #00abf4; 
+  .button-twitter {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 45px;
+  
+    background: #00ABF4;
+    color: #ffffff;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-  
+    text-transform: uppercase
   }
   
-  .social-button img {
-    height: 24px;
-    margin-right: 10px;
+  .button-linkedin {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 45px;
+    background: #0479cd;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
   }
   
-  .medium-button {
-    background-color: black;
+  .button-medium {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 45px;
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
   }
-  
-  .linkedin-button{
-    background-color:#0c64c4;
-  }
-a img{
-  width: 20px;
-  height: 20px;
-}
 
-.article{
-  margin: 10px;
-}
 
-.titre{
-  font-size: xx-large;
-}
