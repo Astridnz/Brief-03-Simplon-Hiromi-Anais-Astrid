@@ -37,7 +37,7 @@ body{
   nav ul{
     display: flex;
     flex-direction: row;
-   
+
   }
   
   li a[href="index.html"]{
@@ -50,7 +50,6 @@ body{
   }
 
   main{
-    border: blue solid 3px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -140,7 +139,6 @@ a img{
 
 .article{
   margin: 10px;
-  border: red solid 3px;
 }
 
 .titre{
