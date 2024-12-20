@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,6 +40,15 @@ li a[href="blog.html"] {
   color: #9f7ebf;
 }
 
+/*main image*/
+.image-top {
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  max-width: 100%;
+}
+
+/*font*/
 h1 {
   font-family: "Abril Fatface", serif;
   color: #d9597b;
@@ -54,6 +63,12 @@ h3 {
   text-align: justify;
 }
 
+#h2-pink {
+  font-family: "Montserrat", serif;
+  color: #d9597b;
+}
+
+/*footer*/
 footer {
   margin: auto;
   display: flex;
